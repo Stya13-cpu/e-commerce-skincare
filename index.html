@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Glow Queen | Naturally Healthy Skin</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-tertiary": "#ffffff",
+                      "surface": "#fff8f8",
+                      "on-error-container": "#93000a",
+                      "on-tertiary-fixed-variant": "#574500",
+                      "primary-fixed": "#ffd8e7",
+                      "tertiary": "#735c00",
+                      "on-primary-fixed-variant": "#5f3c4d",
+                      "background": "#fff8f8",
+                      "tertiary-fixed": "#ffe088",
+                      "inverse-on-surface": "#f7eff0",
+                      "surface-container": "#f5eced",
+                      "surface-tint": "#795465",
+                      "on-background": "#1e1b1c",
+                      "error": "#ba1a1a",
+                      "surface-container-high": "#efe6e7",
+                      "on-secondary-container": "#705e65",
+                      "on-primary-container": "#765162",
+                      "on-primary-fixed": "#2e1221",
+                      "outline-variant": "#d2c3c7",
+                      "inverse-surface": "#342f31",
+                      "primary-fixed-dim": "#e9bacd",
+                      "on-tertiary-fixed": "#241a00",
+                      "inverse-primary": "#e9bacd",
+                      "surface-container-low": "#faf1f3",
+                      "secondary": "#6c5961",
+                      "error-container": "#ffdad6",
+                      "surface-variant": "#e9e0e2",
+                      "on-surface": "#1e1b1c",
+                      "on-secondary-fixed-variant": "#534249",
+                      "tertiary-fixed-dim": "#e9c349",
+                      "secondary-fixed": "#f5dce5",
+                      "secondary-fixed-dim": "#d8c0c9",
+                      "on-secondary-fixed": "#25181e",
+                      "surface-container-lowest": "#ffffff",
+                      "tertiary-container": "#f9d156",
+                      "outline": "#817478",
+                      "surface-container-highest": "#e9e0e2",
+                      "on-secondary": "#ffffff",
+                      "on-primary": "#ffffff",
+                      "surface-bright": "#fff8f8",
+                      "primary": "#795465",
+                      "on-error": "#ffffff",
+                      "primary-container": "#f8c8dc",
+                      "surface-dim": "#e0d8d9",
+                      "on-tertiary-container": "#705900",
+                      "on-surface-variant": "#4f4448",
+                      "secondary-container": "#f2d9e2"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                "xl": "1.5rem"
+              },
+              "fontFamily": {
+                      "headline": ["Manrope"],
+                      "body": ["Plus Jakarta Sans"],
+                      "label": ["Plus Jakarta Sans"]
+              }
+            },
+          }
+        }
+      </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .headline-font { font-family: 'Manrope', sans-serif; }
+        .ambient-glow { box-shadow: 0 40px 60px -20px rgba(30, 27, 28, 0.05); }
+    </style>
+</head>
+<body class="bg-surface text-on-surface">
+<!-- Top Promotional Banner -->
+<div class="bg-primary-container text-on-primary-container py-2 text-center">
+<p class="text-xs font-bold uppercase tracking-widest leading-normal">Free Shipping on Orders Over $50</p>
+</div>
+<!-- Navigation -->
+<div class="layout-container flex flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-outline-variant/20 px-6 md:px-10 py-4 bg-surface/80 backdrop-blur-md sticky top-0 z-50">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-4 text-on-surface">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-on-surface text-xl headline-font font-extrabold tracking-tight">Glow Queen</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-9">
+  <a class="text-on-surface text-sm font-medium hover:text-primary transition-colors" href="index.html">Home</a>
+  <a class="text-on-surface text-sm font-medium hover:text-primary transition-colors" href="product.html">Product</a>
+  <a class="text-on-surface text-sm font-medium hover:text-primary transition-colors" href="contact.html">Contact</a>
+</nav>
+</div>
+<div class="flex flex-1 justify-end gap-6 items-center">
+<label class="hidden md:flex flex-col min-w-40 h-10 max-w-64">
+<div class="flex w-full flex-1 items-stretch rounded-full h-full bg-surface-container-low">
+<div class="text-outline flex items-center justify-center pl-4">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</div>
+<input class="form-input flex w-full min-w-0 flex-1 border-none bg-transparent focus:ring-0 text-sm placeholder:text-outline px-3" placeholder="Search products..."/>
+</div>
+</label>
+<div class="flex gap-4">
+<button class="text-on-surface hover:text-primary transition-colors">
+<span class="material-symbols-outlined">person</span>
+</button>
+<button class="relative text-on-surface hover:text-primary transition-colors">
+<span class="material-symbols-outlined">shopping_bag</span>
+<span class="absolute -top-1 -right-1 bg-tertiary text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center font-bold">2</span>
+</button>
+</div>
+</div>
+</header>
+</div>
+<!-- Hero Section -->
+<section class="relative h-[870px] w-full flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Radiant healthy skin" class="w-full h-full object-cover" data-alt="Soft-focus portrait of a woman with glowing skin, surrounded by botanical leaves in a serene, high-end editorial lighting setup." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiaDZuQuFJmvmdbage8t0IsxYetREaJ5ZqTH52_aTDkRfDVFqcEPnaXJ2xQImKPo7zEstEpGen6tGawd9DEd5JApSpVL_RD9g00aXYy4EqzIMhbWxYl2JCWoy2D4S8--L_zlZhhFVMWZY_owmw3f71wghG1tFj7raZC-Nn-55o5rSPqNybOd_gM-xItYiODyGm0IG9CTeCnVQ8EYuNYSUbwRcv3BYPMw-HlfIt-lpO5phzJo4-qQaKErTSVYaW6ccbrwiaAKYMbqE"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/40 to-transparent"></div>
+</div>
+<div class="container mx-auto px-10 relative z-10">
+<div class="max-w-2xl">
+<span class="text-tertiary font-bold tracking-[0.2em] uppercase text-xs mb-4 block">New Collection 2024</span>
+<h1 class="text-on-background text-6xl md:text-8xl headline-font font-extrabold leading-tight tracking-tighter mb-6">
+                    Naturally <br/> Healthy Skin
+                </h1>
+<p class="text-on-surface-variant text-lg mb-10 max-w-md leading-relaxed">
+                    Discover the power of nature-inspired skincare for a radiant, balanced complexion that glows from within.
+                </p>
+<button class="bg-primary text-on-primary px-10 py-5 rounded-full font-bold tracking-wide hover:opacity-90 transition-opacity uppercase text-sm">
+                    Shop Now
+                </button>
+</div>
+</div>
+</section>
+<!-- Category Grid -->
+<section class="py-24 px-10 bg-surface">
+<div class="flex justify-between items-end mb-12">
+<div>
+<h2 class="text-3xl headline-font font-bold mb-2">Shop by Category</h2>
+<p class="text-outline text-sm uppercase tracking-widest">Tailored to your needs</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Cleansers -->
+<div class="group relative aspect-[3/4] rounded-xl overflow-hidden cursor-pointer">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Minimalist glass bottle of facial cleanser on a white marble surface with soft natural shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxrAiCuvx7-j2q25qTGUw2fFwifoVG4CUeTba0DHwcLbZn7axeydWb6QKf8llXKJN8NWo6tWi-gm4G_sH4pqzTOChpS4DpMk1aLqKNkC3TNC63F4QfSVC-lyF0HhE7Z9V9FfLTR7kJtSgvTpEnoje8d0W1sT2asMC8DJEnW3NGQff7RbMsQ7WTsd2V6NbGYbL9eOtsWd_pWKOey-eqXSmoJQGXsTK_JlAp-QsRILBZeidbxb7YGZKnMgbK6e3m1XHy8TtVjgKk_OA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex flex-col justify-end p-8">
+<h3 class="text-white text-xl font-bold mb-2">Cleansers</h3>
+<p class="text-white/80 text-xs font-medium uppercase tracking-widest border-b border-white/20 pb-2 self-start">Browse all</p>
+</div>
+</div>
+<!-- Serums -->
+<div class="group relative aspect-[3/4] rounded-xl overflow-hidden cursor-pointer">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Elegant golden serum dropper bottle standing amongst soft pink rose petals in ethereal lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCit1xuCdJ1nrljREncpe9mOT_vG39F67AJbcq08hp-J_C7iEH6RDy0rcIHoyYW737WC1bQ-Ck_WMVmnL0TxA3eIqDQ4As1vXCEhyWWCmKoKS93UXJ0NY68jzHt3C_DokKnxbvVmnWIYK9lNFXGgoS5yQJjsOZXWfrOLcOc9Y33h4N8CbH-ydQboZ8kqzMEClrpWQ9gsKET1QdIi-4G0dDqm-P76WLiqJRoTei1kf17gYHXRgk_PCzvvx39TDN3ZcpHQUij7JqtwLw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex flex-col justify-end p-8">
+<h3 class="text-white text-xl font-bold mb-2">Serums</h3>
+<p class="text-white/80 text-xs font-medium uppercase tracking-widest border-b border-white/20 pb-2 self-start">Browse all</p>
+</div>
+</div>
+<!-- Moisturizers -->
+<div class="group relative aspect-[3/4] rounded-xl overflow-hidden cursor-pointer">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A jar of rich white face cream with its lid off, showing a smooth swirl texture on a beige background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuByyjt4Fn3kpPN2YWzCXwxIJRmylQPx9ebRxdThJ1j8Fwvnx9YTSW-PsEWT2g2HDkYGBL4C8P5fHh470UE_2t3kZcI0TuzQIlU5_vFrkJmHKLrA4ofsjBLXvTwm77ez3vFM4x_9ycotBMbjrsL-Wv6wMnLHDCzugG-ocEKQDNr_ooLzqQc3wX9KPPbHfRIIDRCMVvxih7VnFjBCKiPhtUuakqHZ4Ys1JQFpclM6gYL7nREZ2JgD1kt_fU7HT58UhX3f0Ytx_OMWnfc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex flex-col justify-end p-8">
+<h3 class="text-white text-xl font-bold mb-2">Moisturizers</h3>
+<p class="text-white/80 text-xs font-medium uppercase tracking-widest border-b border-white/20 pb-2 self-start">Browse all</p>
+</div>
+</div>
+<!-- Sunscreens -->
+<div class="group relative aspect-[3/4] rounded-xl overflow-hidden cursor-pointer">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Sunscreen tube on light sand with dappled sunlight through palm leaves, feeling summery and protective." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDox4vJhTRjjYeDTT9bvWqgKujZrtnZTMFV139b_19UUAZJFakC7cd-nYIJsxoX4HDuTSxyD02_SGw6Igg2siixF8okF3sd61ZBHrQRPe4kKjFsluUBZ-LPzXljegH7ccSUg-IHjHLU6JjN2rSTvEvM4-cHMEPL5f_FFoxBJc7sQV2pKuDy3f9i24c71GCZnr5OBg-ha742Ywy1QVXmFBKa985Yjq2WOI2zy7W5PTAgtd5qfM5aytFmAJBYtILeywBz6PxBlnZW0x0"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex flex-col justify-end p-8">
+<h3 class="text-white text-xl font-bold mb-2">Sunscreens</h3>
+<p class="text-white/80 text-xs font-medium uppercase tracking-widest border-b border-white/20 pb-2 self-start">Browse all</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Products -->
+<section class="py-24 px-10 bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col items-center mb-16">
+<h2 class="text-4xl headline-font font-extrabold mb-4">The Glow Essentials</h2>
+<div class="w-12 h-1 bg-tertiary"></div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+<!-- Product Card 1 -->
+<div class="bg-surface-container-lowest p-5 rounded-2xl ambient-glow group">
+<div class="aspect-square rounded-xl bg-surface-variant overflow-hidden mb-6 relative">
+<img class="w-full h-full object-cover" data-alt="Matte glass bottle of premium vitamin C serum with a clean white label on a soft clay pedestal." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCL3pl9RRRe9CRsxvFYmc8KWcy3lvgss8IV7Ce6d2-fM61DzbfpqBbF_BYgkhsv6FlYf6mhsySnVeCY6iWZsgn_oCeIBOFoZxKrfPhSQOntbBIp1VZVaPH9qjl2lMaX-oujOgzS9HKR07PtnHLLYdnAo3dEMp_vKA-BCRFw0eqyTtsn9WtOgxslZev7PidW4mXCIYl_hQMifeLkeRl7SodcSdePXkN0InbFk5U6ItuDt8YekleMWGOJVz6uLBw5jbiBx4Nf2e1Gu1w"/>
+<span class="absolute top-4 left-4 bg-primary text-white text-[10px] font-bold uppercase py-1 px-2 rounded">Best Seller</span>
+</div>
+<div class="flex justify-between items-start mb-2">
+<h4 class="headline-font font-bold text-lg">Radiance Glow Serum</h4>
+<span class="font-bold text-primary">$42.00</span>
+</div>
+<div class="flex items-center gap-1 mb-4 text-tertiary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-outline text-xs ml-2">(124 reviews)</span>
+</div>
+<button class="w-full py-3 rounded-full border border-outline-variant hover:bg-on-surface hover:text-white transition-all text-sm font-bold uppercase tracking-widest">Add to Cart</button>
+</div>
+<!-- Product Card 2 -->
+<div class="bg-surface-container-lowest p-5 rounded-2xl ambient-glow group">
+<div class="aspect-square rounded-xl bg-surface-variant overflow-hidden mb-6">
+<img class="w-full h-full object-cover" data-alt="Gentle hydrating cleanser in a tall frosted bottle with botanical elements blurred in background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBA3nWmR4KLDE1PP0_BWIb8TDJt9GlYM9Q9fXY2qXeltD7Al3Lc5wqV7QPYdOTZBgxAm1mqVIOLQK9cRWqAet6hcfYmQG15mnk5xtsuZjbJXnNyaVJvMQwXATydGbppFPxxM-LovqpzYTzZW1foleLI4Gpz0QtBQ5CVRC36wTs-aoyvSTqVQZyW6nPjchXSJWSUbyYwrrgVx24pmm9cCkfuOIFxFCK2osmvQ18w-Bf4UW8OySHy8RBQGuDBsRhZrhB1W9vyIGJfVkM"/>
+</div>
+<div class="flex justify-between items-start mb-2">
+<h4 class="headline-font font-bold text-lg">Velvet Cloud Cleanser</h4>
+<span class="font-bold text-primary">$28.00</span>
+</div>
+<div class="flex items-center gap-1 mb-4 text-tertiary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="text-outline text-xs ml-2">(89 reviews)</span>
+</div>
+<button class="w-full py-3 rounded-full border border-outline-variant hover:bg-on-surface hover:text-white transition-all text-sm font-bold uppercase tracking-widest">Add to Cart</button>
+</div>
+<!-- Product Card 3 -->
+<div class="bg-surface-container-lowest p-5 rounded-2xl ambient-glow group">
+<div class="aspect-square rounded-xl bg-surface-variant overflow-hidden mb-6 relative">
+<img class="w-full h-full object-cover" data-alt="Rich night cream jar with gold lid sitting on a velvet surface with soft warm lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuADLhicnhRjmcnlmGGtcEWLwtNVzLp9y1Zlxf7vZYwk6KL6-_8ej-bIHQI_JBu0JFFuFB-XYboxRlYRMQZofNRoaALRBdV2O0yW-uF5wqWSQrxFX6C8jJkKh9NqYCX1nZkhiCJh9YNNWxpm8XJ1NnvmsmPkj5zWf6ZvWzViulue4UHjf8oqXfXPq5rgBUYlwS7hKKQv1Tykg9ZxkqnYS3vgrqxXu85XPPtvKfD9JP2rckB1jb3BmjnxJ3UrdWMXWeA15yrvS6wVUI4"/>
+<span class="absolute top-4 left-4 bg-tertiary text-white text-[10px] font-bold uppercase py-1 px-2 rounded">Award Winner</span>
+</div>
+<div class="flex justify-between items-start mb-2">
+<h4 class="headline-font font-bold text-lg">Dew Drop Moisturizer</h4>
+<span class="font-bold text-primary">$36.00</span>
+</div>
+<div class="flex items-center gap-1 mb-4 text-tertiary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-outline text-xs ml-2">(215 reviews)</span>
+</div>
+<button class="w-full py-3 rounded-full border border-outline-variant hover:bg-on-surface hover:text-white transition-all text-sm font-bold uppercase tracking-widest">Add to Cart</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Results Gallery (Before and After) -->
+<section class="py-24 px-10 bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="space-y-8">
+<span class="text-tertiary font-bold tracking-[0.2em] uppercase text-xs">Real People, Real Glow</span>
+<h2 class="text-4xl headline-font font-extrabold leading-tight">Visible transformation in as little as 14 days.</h2>
+<p class="text-on-surface-variant text-lg leading-relaxed">Our clinical formulations are designed to work in harmony with your skin's natural renewal process. Join over 10,000+ satisfied Glow Queens.</p>
+<div class="flex gap-12 pt-4">
+<div>
+<p class="text-4xl font-bold text-primary mb-1">98%</p>
+<p class="text-xs text-outline uppercase tracking-wider">Reported better texture</p>
+</div>
+<div>
+<p class="text-4xl font-bold text-primary mb-1">94%</p>
+<p class="text-xs text-outline uppercase tracking-wider">Saw increased hydration</p>
+</div>
+</div>
+</div>
+<div class="relative flex gap-4">
+<div class="flex-1 space-y-4">
+<div class="rounded-2xl overflow-hidden aspect-[4/5] bg-surface-container">
+<img class="w-full h-full object-cover grayscale opacity-60" data-alt="Close-up photo showing uneven skin texture and dullness as a 'before' reference." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBTiLFZ6ezqo9hq-vJABzELioGRRCRUEZ99IGCA9wZI7YEYPSCaAXC9MeXZM5-nSBupgnfl2wnZ06uGUa_GentgGvRQhG8oEb84AdLjeAVP8ZlMQFpCt_97r9Vahxq20g8CWXsaTbz6EaR9z_F4ton7dHUtZwzU3C8RJAj375C6EDjm5Ve-ufzeA3J_yIlOr9Dz8pspGOiHtC2xXCGrjhHZvSrE8DuAHBkC2j1VmhOOORuiO7HiO7z1bnQaNGikIJKgJreWNCbhH8"/>
+</div>
+<p class="text-center text-xs font-bold uppercase tracking-widest text-outline">Day 0</p>
+</div>
+<div class="flex-1 space-y-4 pt-12">
+<div class="rounded-2xl overflow-hidden aspect-[4/5] bg-surface-container ambient-glow border-2 border-primary-container">
+<img class="w-full h-full object-cover" data-alt="Close-up photo of the same skin area now appearing luminous, smooth, and clear as an 'after' reference." src="https://lh3.googleusercontent.com/aida-public/AB6AXuApOZFtCWrvKb6lxM4cBexmcJ7kaRJ--UGGoUMRLYKQtzgzwbPSbu8eQbGM5OBKERumVbDiS21vxOKx2TPFl-l9TEgThnimTkDb8AFimvPXnrJGodhNOG7hL3cnjXjRRDl-UJNwFAwoT0fipaIUNevOxPNah46SQlWS5WD1s8Y8icLY8_Z45goojQh3H7zzQOu_C5xhRz_tNW8Qf4jpEvYwSmnVdXR8IOaY-oK0n6Zf9qrPqKU2PBDixycgFeemLiXESXRuvFZo3PE"/>
+</div>
+<p class="text-center text-xs font-bold uppercase tracking-widest text-primary">Day 14</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Education Section (Glow Guide) -->
+<section class="py-24 px-10 bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="flex justify-between items-center mb-16">
+<h2 class="text-4xl headline-font font-extrabold">Glow Guide</h2>
+<a class="text-sm font-bold uppercase tracking-widest text-primary border-b-2 border-primary-container" href="#">Read the Blog</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<article class="group">
+<div class="aspect-[16/10] overflow-hidden rounded-xl mb-6">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Morning sunlight streaming through a window onto a curated vanity set with skincare products." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZXC9asR38ljAKlb20jzWVKDR4DyBxTTBPOy6n485DXd0E5x0GXcrgEaIaX9N_iFkLRyF_4MwD0K75wvR8zF9qV2QrvA_o0DLQdxVcoVru2tX8fD3taSLtXXF_0-jNIyDRwe14tCtoHk3QbLLZ635uQ1CCgtaj7fBacWZg5TSRvRt1gi0PyD1TOhUMsR5twROx27FFDyB5uTxqxkdiZreRmKZmy5l8WrtYeXfNq9mJWQEfv90R4qeh5On99NgPDIRWj7uefW5fMhg"/>
+</div>
+<span class="text-xs font-bold text-tertiary uppercase tracking-widest mb-3 block">Morning Routine</span>
+<h3 class="text-xl headline-font font-bold mb-4 group-hover:text-primary transition-colors">How to Layer Serums for Maximum Absorption</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">Discover the correct order of operations for your morning skincare routine and why it matters.</p>
+</article>
+<article class="group">
+<div class="aspect-[16/10] overflow-hidden rounded-xl mb-6">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Droplets of water and fresh botanical leaves on a clean white surface representing hydration." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_iJLiumA1oj4GqzJLNCYzc-HP4NGJzn65UYhyTxQYfbKa0g3BkHFcUrKwZRURtmLra_e4WhjuT00ZtWNivEr12sglMQmMS99y9CxAJybEVM9aLKcdeFijqx3UztsIb_JzYHjlq116dg7Rn-urq47baMmlud53_53ggevdCYjT2wEMaZWUfUxvOxIqkgYoJoukBvNO-xP-EbSWEE_7LP-FTTxkS6UWm4yATNzd2w-OEI7GnypANkCT70wOpzDcet4uBFfyqvsEqVc"/>
+</div>
+<span class="text-xs font-bold text-tertiary uppercase tracking-widest mb-3 block">Ingredients</span>
+<h3 class="text-xl headline-font font-bold mb-4 group-hover:text-primary transition-colors">Hyaluronic Acid vs Glacial Water: Which is better?</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">We break down the science behind the world's most powerful hydrating ingredients.</p>
+</article>
+<article class="group">
+<div class="aspect-[16/10] overflow-hidden rounded-xl mb-6">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up of a woman sleeping peacefully on a silk pillowcase, suggesting beauty sleep." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-hKLss0hzWO8XeMr7RNKvZTJ4XZFhqKLJTNcUeGw_SZepdU_nDsA4Y0CK-_ccIKu0WKxQtvEbp2CDoilfU8JLww1gZSPot2n-xNY7IWMw0HidiY8TPra_6td5yDaOsxkIuDBHNOWwRegX3whsi_bljfVPdDrDNavKOoP8PUoqXkgfch-93TGGJ_lQ9ccBvuYPA0IvbZOvyxm4Aq2DrdBKOUQWn67iHLLEVhnMK6QVk2M4qekr9hukISTIpTIPGKU7QxwKhbrwU3E"/>
+</div>
+<span class="text-xs font-bold text-tertiary uppercase tracking-widest mb-3 block">Self Care</span>
+<h3 class="text-xl headline-font font-bold mb-4 group-hover:text-primary transition-colors">The Connection Between Sleep and Skin Health</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">Learn how your skin repairs itself during rest and how to optimize your beauty sleep.</p>
+</article>
+</div>
+</div>
+</section>
+<!-- Newsletter -->
+<section class="py-24 px-10 bg-primary-container relative overflow-hidden">
+<div class="absolute right-0 top-0 w-1/3 h-full opacity-10 pointer-events-none">
+<svg class="w-full h-full" fill="currentColor" viewbox="0 0 100 100">
+<path d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z"></path>
+</svg>
+</div>
+<div class="max-w-2xl mx-auto text-center relative z-10">
+<h2 class="text-4xl headline-font font-extrabold mb-4 text-on-primary-fixed">Join the Glow</h2>
+<p class="text-on-primary-fixed-variant mb-10 text-lg">Receive exclusive skincare tips, product launches, and 15% off your first order.</p>
+<form class="flex flex-col sm:flex-row gap-4">
+<input class="flex-1 rounded-full px-8 py-4 border-none focus:ring-2 focus:ring-primary text-on-surface bg-white" placeholder="Enter your email address" required="" type="email"/>
+<button class="bg-primary text-on-primary px-10 py-4 rounded-full font-bold uppercase tracking-widest hover:opacity-90 transition-opacity" type="submit">Subscribe</button>
+</form>
+<p class="mt-6 text-xs text-on-primary-fixed-variant opacity-60">By signing up, you agree to our Privacy Policy and Terms of Service.</p>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-inverse-surface text-inverse-on-surface py-20 px-10">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16">
+<div class="space-y-6">
+<div class="flex items-center gap-3">
+<div class="size-5 text-primary-fixed">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-xl headline-font font-extrabold tracking-tight">Glow Queen</h2>
+</div>
+<p class="text-outline-variant text-sm leading-relaxed">High-performance botanical skincare for the modern woman who refuses to compromise on purity or results.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-outline-variant/30 flex items-center justify-center hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]">link</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-outline-variant/30 flex items-center justify-center hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]">photo_camera</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-sm font-bold uppercase tracking-widest mb-8">Shop</h4>
+<ul class="space-y-4 text-outline-variant text-sm">
+<li><a class="hover:text-primary-fixed transition-colors" href="#">All Products</a></li>
+<li><a class="hover:text-primary-fixed transition-colors" href="#">New Arrivals</a></li>
+<li><a class="hover:text-primary-fixed transition-colors" href="#">Gifts &amp; Sets</a></li>
+<li><a class="hover:text-primary-fixed transition-colors" href="#">Skincare Quiz</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-sm font-bold uppercase tracking-widest mb-8">Support</h4>
+<ul class="space-y-4 text-outline-variant text-sm">
+<li><a class="hover:text-primary-fixed transition-colors" href="#">Help Center</a></li>
+<li><a class="hover:text-primary-fixed transition-colors" href="#">Shipping &amp; Returns</a></li>
+<li><a class="hover:text-primary-fixed transition-colors" href="#">Contact Us</a></li>
+<li><a class="hover:text-primary-fixed transition-colors" href="#">Track My Order</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-sm font-bold uppercase tracking-widest mb-8">Visit Us</h4>
+<ul class="space-y-4 text-outline-variant text-sm">
+<li>123 Radiant Lane</li>
+<li>Los Angeles, CA 90210</li>
+<li>hello@glowqueen.com</li>
+<li>(555) 000-0000</li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto pt-20 mt-20 border-t border-outline-variant/10 flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="text-outline-variant text-xs">© 2024 Glow Queen. All rights reserved.</p>
+<div class="flex gap-8 text-xs text-outline-variant uppercase tracking-widest">
+<a class="hover:text-primary-fixed" href="#">Privacy Policy</a>
+<a class="hover:text-primary-fixed" href="#">Terms of Use</a>
+<a class="hover:text-primary-fixed" href="#">Accessibility</a>
+</div>
+</div>
+</footer>
+</body></html>
